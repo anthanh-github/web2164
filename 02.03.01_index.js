@@ -16,7 +16,7 @@ const router = express.Router();
 //--- Home
 router.get('/',
     (req, res) => {
-        res.sendFile("./view/home.html");
+        res.sendFile(__dirname +"./view/home.html");
     }
 );
 
