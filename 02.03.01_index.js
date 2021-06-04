@@ -1,4 +1,4 @@
-/ Tạo Project và Ghi nhận thông tin liên quan
+// Tạo Project và Ghi nhận thông tin liên quan
 // npm init --y
 // npm install --save express
 // Mở thư viện fs, express
