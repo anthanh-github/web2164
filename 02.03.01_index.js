@@ -23,14 +23,14 @@ router.get('/',
 //--- Profile
 router.get('/profile',
     (req, res) => {
-       res.sendFile(__dirname + "./view/procfile.html");
+       res.sendFile(__dirname + "procfile.html");
     }
 );
 
 //--- Login
 router.get('/login',
     (req, res) => {
-         res.sendFile(__dirname + "./view/login.html");
+         res.sendFile(__dirname + "login.html");
     }
 );
 
