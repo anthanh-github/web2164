@@ -16,21 +16,21 @@ const router = express.Router();
 //--- Home
 router.get('/',
     (req, res) => {
-     res.sendFile(__dirname + "home.html");
+     res.sendFile(__dirname + "/home.html");
     }
 );
 
 //--- Profile
 router.get('/profile',
     (req, res) => {
-       res.sendFile(__dirname + "procfile.html");
+       res.sendFile(__dirname + "./procfile.html");
     }
 );
 
 //--- Login
 router.get('/login',
     (req, res) => {
-         res.sendFile(__dirname + "login.html");
+         res.sendFile(__dirname + "./login.html");
     }
 );
 
